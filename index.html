@@ -1,12 +1,12 @@
 <html><head>
-  <title>Rabbit:: Zawgyi to Unicode, Unicode to Zawgyi Converter</title>
+  <title>Nyein:: Zawgyi to Unicode, Unicode to Zawgyi Converter</title>
   <meta name="description" content="Zawgyi to Unicode, Unicode to Zawgyi Converter">
-  <meta name="keywords" content="Rabbit,Zawgyi,Unicode,Converter,Convert">
+  <meta name="keywords" content="Nyein,Zawgyi,Unicode,Converter,Convert">
 	
-  <meta name="author" content="Rabbit">
+  <meta name="author" content="Nyein">
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="js/rabbit.js"></script>
+	<script src="js/Nyein.js"></script>
 	<link rel="stylesheet" href="css/style.css">
     <script type="text/javascript">
       function clearText() {
@@ -20,8 +20,8 @@
 
 <div id="container">
 	<header>
-		<img src="images/rabbit_100.png">
-		<h2>Rabbit:: Zawgyi to Unicode, Unicode to Zawgyi Converter</h2>
+		<img src="images/Nyein_100.png">
+		<h2>Nyein:: Zawgyi to Unicode, Unicode to Zawgyi Converter</h2>
 	</header>
   <br>
   
@@ -47,7 +47,7 @@
 	<br>
 	
 	<footer>
-		Found a bug ? Please , open <a href="https://github.com/Rabbit-Converter/Rabbit/issues/new">new issue</a>.
+		Found a bug ? Please , open <a href="https://github.com/Nyein-Converter/Nyein/issues/new">new issue</a>.
 	</footer>
 </div>
 
@@ -73,10 +73,10 @@ onchangeHandler(zawgyi,unicode,"zg2uni");
 function converter(textField,tochangeField,toconv) {
     if(tochangeField != textFieldInFocus) {
         if(toconv == "uni2zg") {
-              tochangeField.value = Rabbit.uni2zg(textField.value);
+              tochangeField.value = Nyein.uni2zg(textField.value);
         }
         else {
-             tochangeField.value = Rabbit.zg2uni(textField.value);
+             tochangeField.value = Nyein.zg2uni(textField.value);
         }
     }
 }
