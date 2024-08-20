@@ -1,13 +1,16 @@
-<html><head>
+
+
+<html>
+<head>
   <title>Rabbit:: Zawgyi to Unicode, Unicode to Zawgyi Converter</title>
   <meta name="description" content="Zawgyi to Unicode, Unicode to Zawgyi Converter">
   <meta name="keywords" content="Rabbit,Zawgyi,Unicode,Converter,Convert">
 	
   <meta name="author" content="Rabbit">
-	<meta charset="utf-8">
+	<meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="js/Rabbit.js"></script>
-	<link rel="stylesheet" href="css/style.css">
+	<script src="rabbit.js"></script>
+	<link rel="stylesheet" href="style.css?v=1.0.2"/>
     <script type="text/javascript">
       function clearText() {
         document.getElementById("unicode").value = "";
@@ -20,21 +23,21 @@
 
 <div id="container">
 	<header>
-		<img src="images/Rabbit_100.png">
+		<img src="rabbit_100.png">
 		<h2>Rabbit:: Zawgyi to Unicode, Unicode to Zawgyi Converter</h2>
 	</header>
-  <br>
+  <br/>
   
     <div class="textContainer">
 
         <section id="Unicode">
             <h3>Unicode</h3>
-            <textarea id="unicode" onfocus="handleOnFocus(this)" onblur="handleOnBlur()">နေကောင်းလားမေမေ။</textarea>
+            <textarea id="unicode" onfocus="handleOnFocus(this)" onblur="handleOnBlur()">အလွမ်းမပေးသွားနဲ့နန်းရယ်</textarea>
         </section>
         
         <section id="Zawgyi">
             <h3>Zawgyi</h3>
-            <textarea id="zawgyi" onfocus="handleOnFocus(this)" onblur="handleOnBlur()">ေနေကာင္းလားေမေမ။</textarea>
+            <textarea id="zawgyi" onfocus="handleOnFocus(this)" onblur="handleOnBlur()">အလြမ္းမေပးသြားနဲ႔နန္းရယ္</textarea>
         </section>
     </div>
     <div class="textContainer">
@@ -44,7 +47,7 @@
         <input type="button" value="Copy Unicode" onclick="copyUnicode()">
     </section>
   </div>
-	<br>
+	<br/>
 	
 	<footer>
 		Found a bug ? Please , open <a href="https://github.com/Rabbit-Converter/Rabbit/issues/new">new issue</a>.
@@ -122,6 +125,5 @@ function copyUnicode() {
 
 
 </script>
-
-
-</body></html>
+</body>
+</html>
